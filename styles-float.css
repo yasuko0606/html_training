@@ -1,0 +1,91 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+}
+.wrap {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    border-left: black solid 0.1px;
+    border-right: black solid 0.1px;
+}
+.i002 {
+    height: 55px;
+}
+.head {
+    width: 100%;
+}
+.head > p {
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    background-color: #043669;
+    color: white;
+    border-right: white solid 0.2px;
+    text-align: center;
+    margin-bottom: 0.3px;
+}
+.head :last-child {
+    border-right: none;
+}
+.imagearea {
+    position: relative;
+}
+.imagearea > .i003 {
+    width: 100%;
+}
+.imagearea > p {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+}
+ h1 {
+    height: 40px;
+    line-height: 40px;
+    background-color: #46698f;
+    color: white;
+    margin: 20px 20px 0px 20px;
+    font-size: 15px;
+    padding: 0px 35px;
+}
+ .newsarea table {
+     margin: 5px 30px 80px 30px;
+     border-collapse: collapse;
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(54, 52, 52)
+ }
+ .newsarea tr {
+     margin: 30px;
+     border-bottom: 0.1px solid rgb(153, 147, 147);
+ }
+ .newsarea td {
+    padding: 10px;
+}
+ h2 {
+     width: 100%;
+     background-color: #043669;
+     height: 60px;
+     line-height: 60px;
+     text-align: center;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     font-weight: 300;
+ }
